@@ -91,18 +91,18 @@ body {
   color: #7C5A47;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .faq-content a {
-  display: inline;
+  display: block;
   background-color: #D5C4BC;
   text-decoration: none;
   color: #574335;
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 10px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 800;
   margin-left: 530px;
   transition: all .7s ease-in-out;
 }
@@ -110,6 +110,11 @@ body {
 .faq-content a:hover {
   color: #00acc1;
   border-bottom: 4px solid #00acc1;
+}
+
+.faq-content a i {
+  font-size: 35px;
+  margin-right: 10px;
 }
 
 /* Collapse Section */
@@ -153,6 +158,14 @@ body {
   border-bottom: none;
 }
 
+.collapsible-header i {
+  transition: all .5s ease-in-out;
+}
+
+.collapsible-header:hover.collapsible-header i {
+  color: #00acc1;
+}
+
 .collapsible-content {
   max-height: 0;
   overflow: hidden;
@@ -173,6 +186,14 @@ body {
 
 .collapsible-content.active {
   padding: 10px;
+}
+
+.collapsible-content i {
+  transition: all .5s ease-in-out;
+}
+
+.collapsible-content:hover.collapsible-content i {
+  color: #00acc1;
 }
 
 /* Main Section End */
