@@ -68,10 +68,8 @@ body {
 /* Main Section Start */
 /* Contact Form Section */
 .contact-form-section {
-  padding: 50px 0px;
   height: 130vh;
-  background-image: url(/img/contact-bg.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../img/contact-bg.jpg);
 }
 
 .contact-form-title h2 {
@@ -79,6 +77,7 @@ body {
   font-weight: 600;
   color: #00acc1;
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
