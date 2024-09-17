@@ -20,6 +20,13 @@ body {
 #btn-back-to-top i {
     color: #00acc1;
     font-size: 50px;
+    transition: all .3s ease-in-out;
+}
+
+#btn-back-to-top i:hover {
+    color: #036969;
+    box-shadow: 0px 0px 20px #00acc1;
+    border-radius: 50%;
 }
 
 /* Heading Section Start */
@@ -44,16 +51,17 @@ body {
 
 .nav-item {
     margin-right: 20px;
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .nav-item a {
     color: #FFFFFF;
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-.nav-item:hover {
-    box-shadow: 0px 0px 40px #00acc1 inset;
+.nav-item a:hover {
+    color: #000000;
+    font-weight: 600;
 }
 
 .navbar .nav-item .nav-link.active:hover {
@@ -123,7 +131,7 @@ body {
     padding: 30px;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
-    transition: .6s;
+    transition: all .3s ease-in-out;
     margin: 0 25px;
 }
 
@@ -149,7 +157,7 @@ body {
     height: 160px;
     clip-path: circle(50% at 50% 50%);
     box-shadow: 0 0 22px #3336;
-    transition: .6s;
+    transition: all .3s ease-in-out;
 }
 
 .profile-card:hover img {
@@ -181,7 +189,7 @@ body {
     color: #333;
     margin-right: 15px;
     font-size: 21px;
-    transition: .6s;
+    transition: all .6s ease-in-out;
 }
 
 .social-links a:hover {
@@ -249,10 +257,10 @@ body {
 }
 
 .cn i {
-    -webkit-transition: all .9s ease;
-    -moz-transition: all .9s ease;
-    -o-transition: all .9s ease;
-    -ms-transition: all .9s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
 }
 
 .cn:hover.cn i {
@@ -285,11 +293,10 @@ body {
     padding: 10px;
     margin: 5px;
     clip-path: circle(45.0% at 50% 50%);
-    transition: all 1s ease;
 }
 
 .footer-1-icon .fb i {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .fb i:hover {
@@ -298,7 +305,7 @@ body {
 }
 
 .footer-1-icon .ig i {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .ig i:hover {
@@ -307,7 +314,7 @@ body {
 }
 
 .footer-1-icon .li i {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .li i:hover {
@@ -316,7 +323,7 @@ body {
 }
 
 .footer-1-icon .gh i {
-    transition: all 1s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .gh i:hover {
@@ -349,7 +356,7 @@ body {
     color: #323450;
     font-size: 16px;
     font-weight: 600;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .footer-2 ul li a:hover,
@@ -363,11 +370,23 @@ body {
     border-radius: 10px;
     background-color: #87DBDA;
     margin: 0px 0px 20px 30px;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .foot-box:hover {
     background-color: #FFFFFF;
+}
+
+.foot-box:hover.foot-box i,
+.foot-box:hover.foot-box p,
+.foot-box:hover.foot-box h6 {
+    transition: all .5s ease-in-out;
+}
+
+.foot-box:hover.foot-box i,
+.foot-box:hover.foot-box p,
+.foot-box:hover.foot-box h6 {
+    color: #00acc1;
 }
 
 .foot-box i {

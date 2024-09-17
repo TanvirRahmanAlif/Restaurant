@@ -20,6 +20,13 @@ body {
 #btn-back-to-top i {
   color: #00acc1;
   font-size: 50px;
+  transition: all .3s ease-in-out;
+}
+
+#btn-back-to-top i:hover {
+  color: #036969;
+  box-shadow: 0px 0px 20px #00acc1;
+  border-radius: 50%;
 }
 
 /* Heading Section Start */
@@ -43,16 +50,17 @@ body {
 
 .nav-item {
   margin-right: 20px;
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .nav-item a {
   color: #FFFFFF;
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
-.nav-item:hover {
-  box-shadow: 0px 0px 40px #00acc1 inset;
+.nav-item a:hover {
+  color: #000000;
+  font-weight: 600;
 }
 
 .navbar .nav-item .nav-link.active:hover {
@@ -225,7 +233,7 @@ body {
   border: 1px solid rgba(126, 126, 126, .3);
   border-radius: 10px;
   margin-bottom: 40px;
-  transition: all .5s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .feedback-content-box:hover {
@@ -235,10 +243,10 @@ body {
 .review-img {
   height: 200px;
   width: 100%;
-  transition: all .5s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
-.review-img:hover {
+.feedback-content-box:hover .review-img {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
@@ -482,7 +490,7 @@ body {
 }
 
 .footer-1-icon .fb i {
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .fb i:hover {
@@ -491,7 +499,7 @@ body {
 }
 
 .footer-1-icon .ig i {
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .ig i:hover {
@@ -500,7 +508,7 @@ body {
 }
 
 .footer-1-icon .li i {
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .li i:hover {
@@ -509,7 +517,7 @@ body {
 }
 
 .footer-1-icon .gh i {
-  transition: all 1s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .footer-1-icon .gh i:hover {
@@ -542,7 +550,7 @@ body {
   color: #323450;
   font-size: 16px;
   font-weight: 600;
-  transition: all 1s ease;
+  transition: all .5s ease-in-out;
 }
 
 .footer-2 ul li a:hover,
@@ -556,11 +564,23 @@ body {
   border-radius: 10px;
   background-color: #87DBDA;
   margin: 0px 0px 20px 30px;
-  transition: all 1s ease;
+  transition: all .5s ease-in-out;
 }
 
 .foot-box:hover {
   background-color: #FFFFFF;
+}
+
+.foot-box:hover.foot-box i,
+.foot-box:hover.foot-box p,
+.foot-box:hover.foot-box h6 {
+  transition: all .5s ease-in-out;
+}
+
+.foot-box:hover.foot-box i,
+.foot-box:hover.foot-box p,
+.foot-box:hover.foot-box h6 {
+  color: #00acc1;
 }
 
 .foot-box i {
