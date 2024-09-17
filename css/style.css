@@ -43,17 +43,20 @@ body {
 
 .nav-item {
   margin-right: 20px;
+  transition: all 1s ease-in-out;
 }
 
 .nav-item a {
   color: #FFFFFF;
+  transition: all 1s ease-in-out;
 }
 
-.navbar-nav .nav-item:hover {
-  background-color: #00acc1;
-  border: 1px solid #2F80ED;
-  border-radius: 20%;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+.nav-item:hover {
+  box-shadow: 0px 0px 40px #00acc1 inset;
+}
+
+.navbar .nav-item .nav-link.active:hover {
+  color: #FFFFFF;
 }
 
 /* Banner Section */
@@ -476,11 +479,41 @@ body {
   padding: 10px;
   margin: 5px;
   clip-path: circle(45.0% at 50% 50%);
-  transition: all 1s ease;
 }
 
-.footer-1-icon i:hover {
-  background-color: #2F80ED;
+.footer-1-icon .fb i {
+  transition: all 1s ease-in-out;
+}
+
+.footer-1-icon .fb i:hover {
+  background-color: #0866FF;
+  color: #FFFFFF;
+}
+
+.footer-1-icon .ig i {
+  transition: all 1s ease-in-out;
+}
+
+.footer-1-icon .ig i:hover {
+  background-color: #F42E52;
+  color: #FFFFFF;
+}
+
+.footer-1-icon .li i {
+  transition: all 1s ease-in-out;
+}
+
+.footer-1-icon .li i:hover {
+  background-color: #4E90D3;
+  color: #FFFFFF;
+}
+
+.footer-1-icon .gh i {
+  transition: all 1s ease-in-out;
+}
+
+.footer-1-icon .gh i:hover {
+  background-color: #16181F;
   color: #FFFFFF;
 }
 
